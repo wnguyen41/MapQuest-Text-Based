@@ -1,0 +1,5 @@
+p1_main.py Asks the user for two or more addresses and output types to display.
+
+Input: two or more addresses, and at least one output type
+Processing: gathers json data using the MapQuest API
+Output: uses generator classes to print the desired output

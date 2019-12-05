@@ -1,0 +1,110 @@
+Script started on Fri 10 May 2019 01:11:26 AM UTC
+]0;kMapQuest/\[01;34m~/workspace/cs131/sp19/Project/MapQuest/[00m $ stoppython p1_main.py 
+2
+10372 W McFadden Ave, Westminster, CA 92683
+2701 Fairview Rd, Costa Mesa, CA 92626
+5
+STEPS
+TOTALDISTANCE
+TOTALTIME
+LATLONG
+ELEVATION
+
+DIRECTIONS
+
+Start out going west on US-36 toward Township Rd (Crossing into Colorado).
+Take the US-36 ramp.
+Merge onto I-70 W.
+Take the US-6/US-85 exit, EXIT 274.
+Keep left at the fork in the ramp.
+Keep straight to take the US-6/US-85 ramp.
+Keep right at the fork in the ramp.
+Merge onto I-70 W via EXIT 273 (Crossing into Utah).
+Merge onto I-15 S via the exit on the left (Passing through Arizona and Nevada, then crossing into California).
+Merge onto CA-91 W/Riverside Fwy via EXIT 96A.
+CA-91 W/Riverside Fwy becomes CA-55/Costa Mesa Fwy.
+Take EXIT 4 toward Del Mar Avenue/Fair Drive.
+Merge onto Newport Blvd.
+Turn right onto Fair Dr.
+Turn right onto Fairview Rd.
+FAIRVIEW ROAD.
+
+TOTAL DISTANCE: 1275 miles
+
+TOTAL TIME: 1144 minutes
+
+LATLONGS
+39.78N 100.45W
+33.67N 117.91W
+
+ELEVATIONS
+Traceback (most recent call last):
+  File "p1_main.py", line 52, in <module>
+    main()
+  File "p1_main.py", line 44, in main
+    for i in elev.getInfo():
+  File "/home/ubuntu/workspace/cs131/sp19/Project/MapQuest/p1_out.py", line 80, in getInfo
+    yield (p1_maps.getElevationData(latLng))["elevationProfile"][0]["height"]
+  File "/home/ubuntu/workspace/cs131/sp19/Project/MapQuest/p1_maps.py", line 33, in getElevationData
+    return r.json()
+  File "/opt/pyenv/versions/3.6.0/lib/python3.6/site-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/opt/pyenv/versions/3.6.0/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/opt/pyenv/versions/3.6.0/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/opt/pyenv/versions/3.6.0/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+]0;kMapQuest/\[01;34m~/workspace/cs131/sp19/Project/MapQuest/[00m $ stop
+]0;kMapQuest/\[01;34m~/workspace/cs131/sp19/Project/MapQuest/[00m $ stoppython p1_main.py [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscript p1.scr
+Script started, file is p1.scr
+]0;kMapQuest/\[01;34m~/workspace/cs131/sp19/Project/MapQuest/[00m $ stoppython p1_main.py 
+2
+Donald Bren Hall, 6210, Irvine, CA 92697
+2701 Fairview Rd, Costa Mesa, CA 92626
+5
+STEPS
+TOTALDISTANDE  CE
+TOTALTIME
+LATLONG
+ELEVATION
+
+DIRECTIONS
+
+Start out going west on US-36 toward Township Rd (Crossing into Colorado).
+Take the US-36 ramp.
+Merge onto I-70 W.
+Take the US-6/US-85 exit, EXIT 274.
+Keep left at the fork in the ramp.
+Keep straight to take the US-6/US-85 ramp.
+Keep right at the fork in the ramp.
+Merge onto I-70 W via EXIT 273 (Crossing into Utah).
+Merge onto I-15 S via the exit on the left (Passing through Arizona and Nevada, then crossing into California).
+Merge onto CA-91 W/Riverside Fwy via EXIT 96A.
+CA-91 W/Riverside Fwy becomes CA-55/Costa Mesa Fwy.
+Take EXIT 4 toward Del Mar Avenue/Fair Drive.
+Merge onto Newport Blvd.
+Turn right onto Fair Dr.
+Turn right onto Fairview Rd.
+FAIRVIEW ROAD.
+
+TOTAL DISTANCE: 1275 miles
+
+TOTAL TIME: 1144 minutes
+
+LATLONGS
+39.78N 100.45W
+33.67N 117.91W
+
+ELEVATIONS
+Traceback (most recent call last):
+  File "p1_main.py", line 52, in <module>
+    main()
+  File "p1_main.py", line 44, in main
+    for i in elev.getInfo():
+  File "/home/ubuntu/workspace/cs131/sp19/Project/MapQuest/p1_out.py", line 80, in getInfo
+    yield (p1_maps.getElevationData(latLng))["elevationProfile"][0]["height"]
+  File "/home/ubuntu/workspace/cs131/sp19/Project/MapQuest/p1_maps.py", line 33, in getElevationData
+    return r.json()
+  File "/opt/pyenv/versions/3.6
